@@ -1,0 +1,35 @@
+
+.link {
+    text-decoration: none;
+    text-align: center;
+}
+a.link {
+    display: block; /* link için bunu yapman gerekir. Kaynak: https://stackoverflow.com/questions/47839650/how-to-center-a-link-in-css */
+    text-align: center;
+}
+
+.baslik {
+    color: darkblue;
+    text-align: center;
+}
+
+.baslik2 {
+    color: purple;
+    text-align: center;
+}
+.p-yazi {
+    color: black;
+    text-align: center;
+}
+ul.liste1 {
+    list-style-type: none;
+}
+
+ul.liste2 {
+    display: table;
+    margin: 0 auto;
+}
+ol.liste3 {
+    display: table;
+    margin: 0 auto;
+}
